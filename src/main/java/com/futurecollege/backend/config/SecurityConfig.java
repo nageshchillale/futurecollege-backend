@@ -50,7 +50,8 @@ public class SecurityConfig {
         CorsConfiguration config = new CorsConfiguration();
         config.setAllowedOrigins(List.of(
                 "http://localhost:3000", // Local dev
-                "https://your-frontend.onrender.com", // ✅ Add your deployed frontend URL here
+                "https://your-frontend.onrender.com",
+                "https://https://futurecollege-gjpc3djao-nagesh-chillales-projects.vercel.app/" ,// ✅ Add your deployed frontend URL here
                 "https://postman.com" // ✅ Allow Postman if needed
         ));
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
