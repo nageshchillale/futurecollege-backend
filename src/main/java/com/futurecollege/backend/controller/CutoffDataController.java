@@ -15,7 +15,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/cutoffs") // Base URL for these endpoints will be /api/cutoffs
-@CrossOrigin(origins = "http://localhost:3000") // !!! IMPORTANT: Allows your React app to fetch data !!!
+
 public class CutoffDataController {
 
     private final ObjectMapper objectMapper = new ObjectMapper(); // Used to parse JSON

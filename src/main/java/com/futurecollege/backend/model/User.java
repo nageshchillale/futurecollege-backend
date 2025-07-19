@@ -5,6 +5,7 @@ import lombok.Data;
 
 @Entity
 @Data // This generates getters/setters automatically
+@Table(name = "\"user\"")
 public class User {
 
     @Id

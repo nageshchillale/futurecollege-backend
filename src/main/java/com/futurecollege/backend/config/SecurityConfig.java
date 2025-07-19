@@ -49,7 +49,9 @@ public class SecurityConfig {
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration config = new CorsConfiguration();
         config.setAllowedOrigins(List.of(
-                "http://localhost:3000", // Local dev
+                "http://localhost:3000",
+                "https://futurecollege-frontend-v2.vercel.app/",
+                "https://future-college.netlify.app",// Local dev
                 "https://your-frontend.onrender.com",
                 "https://https://futurecollege-gjpc3djao-nagesh-chillales-projects.vercel.app/" ,// ✅ Add your deployed frontend URL here
                 "https://postman.com" // ✅ Allow Postman if needed
